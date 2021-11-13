@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <!--Убери лишние пустые строки и пройдись по всему файлу на этот счёт-->
   
   <link rel="stylesheet" href="style/style.css">
- 
+  <!--Пишется normalize, и где отступ-->
 <link rel="stylesheet" href="style/normolize.css">
 
 
@@ -18,33 +18,43 @@
 </head>
 <body>
   <header class="page-header">
+      <!--Для чего дефис в названии класса здесь? Таких мест много-->
     <h1 class="main-">
+        <!--Исправь слово уже, наконец))) и не стоит текст без необходимости переносить на новую строчку, перенос в html
+        равняется одному пробелу в тексте-->
       Главаня
     </h1>
   </header>
 
   <main>
     <section>
+        <!--Добавь отступ ко всему, что внутри section, чтобы было сразу видно, что оно внутри этого тэга-->
     <div class="container-image">
       <img class="image" src="image/General-Trade.png" alt="" width="1152" height="620">
     </div>
+        <!--Здесь смешан kebab-case и camelCase, приведи всё к kebab-->
     <div class="about-Us-2"> 
       <h2 class="about-Us">
         О нас
       </h2>
     </div> 
 
+        <!--Дата-атрибуты нужны для хранения дополнительной информации в стандартных элементах HTML, информацию достают
+        потом с помощью js, у тебя здесь нет js, дата-атрибуты тебе не нужны, и уж тем более по ним не нужно стилизовать.
+        Инлайн стили везде убери, стилизуй по классам-->
         <div  data-testid="richTextElement" style="visibility: inherit;" data-angle="0" data-angle-style-location="style" data-screen-in-hide="done">
+            <!--Добавь отступ к p, чтобы было сразу видно, что он внутри дива-->
         <p class="place-one" style="text-align:center;font-size:15px">
        Наша компания специализируется на таких услугах как :Внедрение маркировки под ключ ,исправление ошибок себе стоимости а так же перенос данных из 1С Бухгалтерии 7.7 в 1С 8.l 
         </p> 
   
-        
+        <!--Здесь отступ закрывающего тэга не соответствует открывающему и таких мест много по всему файлу-->
       </div>
         
           
         </section>
       <div class="container-image-2">
+          <!--Добавь alt... везде в изображениях-->
         <img class="image-2" src="image/people.png" alt="" >
       </div>
       <div class="services-2">
@@ -62,11 +72,13 @@
     <img  class="error" src="image/error.png" alt="" width="330" height="330">
   </div>
 <div class="-main">
+    <!--Кавычки!!!-->
      <p class='left-text'>Перенос данных </p>
      <p class='middle-text'>Маркировки </p>
      <p class='right-text'>Ошибки</p>
 </div>
 <div class="the-average">
+    <!--Data-атрибут!-->
     <p class="data-testid-text">Перенос данных 1С бухгалтерии 7.7 в 1С 8.3 </p>
     <p class="markings-text-">Внедрение маркировок под ключ товара </p>
     <p class="error-text"> Так же что делает компания GeneralTrade это исправляет ошибки себестоимости</p>
@@ -80,10 +92,12 @@
 </div>
 
       <p class="font-10">Ул.Арбат,Москва</p>
+        <!--Зачем здесь пробелы после Россия? Если тебе нужен отступ, то добавь его маржином, контент должен быть осмысленным-->
       <p class="font-10">110919,Россия     </p>
       <p class="font-10"></p>
       <p class="font-10">Телефон:+7(945)000-00-00</p>
       <p class="font-10">Факс:+7(945)000-00-00</p>
+        <!--Копирайт - это не заголовок-->
       <h3 class="gt-con"> 2021 GeneralTrade</h3>
     </footer>
 </body>

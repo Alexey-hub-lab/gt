@@ -1,6 +1,7 @@
-body{
+body{/*Между названием блока правил и открывающей скобкой лучше оставлять пробел*/
   background-color:#FFD700 ;
 }
+/*Между стилевыми блоками лучше оставлять пустые строки*/
 .image{
   max-width: 1152px;
   width: 100%;
@@ -8,7 +9,7 @@ body{
 }
 .container-image{
   text-align: center;
-
+/*Пройдись по файлу на предмет лишних пустых строк*/
 }
 .about-Us-2{
   
@@ -27,6 +28,7 @@ body{
     margin: 0 auto;
     color: rgb(253, 253, 253); /* Цвет текста */
     padding: 2px;
+  /*Приведи отступы в порядок*/
   font-size: 60px;
 }
 .place-one{
@@ -146,4 +148,4 @@ color: aliceblue;
     justify-content: space-around;
     
   }
-  
+/*Закрой media блок*/
