@@ -146,6 +146,7 @@ body {
   color: aliceblue;
 }
 
+/*Убери ; после 1400 и px забыл*/
 @media  only screen and (max-width: 1400;) {
   .image-2{
     margin-left: 100px;
