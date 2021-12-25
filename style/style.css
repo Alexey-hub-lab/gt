@@ -1,0 +1,465 @@
+body {
+  background-color:#FFD700 ;
+}
+
+.image{
+  max-width: 1152px;
+  width: 100%;
+  text-align: center;
+} 
+
+.container-image{
+  text-align: center;
+} 
+
+.about-us-2{
+  padding: 10px;
+  background-color: #000000; /* Цвет фона под заголовком */
+  height: 83px;
+  max-width: 183px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-us{
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(253, 253, 253); /* Цвет текста */
+    padding: 2px;
+    font-size: 60px;
+}
+
+.place-one{
+  text-align: center;
+  margin: 0 auto;
+  color: aliceblue;
+}
+
+.image-2{
+  margin-left: 150px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.container-image-2{
+  text-align: center;
+}
+
+.services-2{
+  padding: 10px;
+  background-color: #000000; /* Цвет фона под заголовком */
+  height: 83px;
+  max-width: 196px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.services{  
+  text-align: center;
+  margin: 0 auto;
+  color: rgb(253, 253, 253); /* Цвет текста */
+  padding: 2px;
+  font-size: 60px;
+}
+
+.content{
+  display: flex;
+  justify-content: space-around
+}
+
+.data-testid{
+  width: 100%;
+  max-width: 180px;
+  height: 180px;
+}
+
+.error{
+  width: 100%;
+  max-width: 190px;
+  height: 190px;
+}
+
+.Markings{
+  width: 100%;
+  max-width: 180px;
+  height: 180px;
+}
+
+.main{
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-text,.middle-text,.right-text{
+  color: aliceblue;
+  font-size: 30px;
+  display: inline-block;
+  margin-right: 70px;
+}
+
+.middle-text{
+  margin-right: 100px;
+}
+
+.the-average{
+  display: flex;
+  justify-content: space-around;
+}
+
+.data-testid-text,.markings-text-,.error-text{
+  color: aliceblue;
+  font-size: 15px;
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.markings-text-{
+  margin-left: 240px;
+}
+
+.contacts{
+  text-align: center;
+  margin: 0 auto;
+  color: rgb(253, 253, 253); /* Цвет текста */
+  padding: 2px;
+  font-size: 60px;
+}
+
+.contacts-2{
+  padding: 10px;
+  background-color: #000000; /* Цвет фона под заголовком */
+  height: 83px;
+  max-width: 284px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.font-10{
+  text-align: center;
+  color: aliceblue;
+}
+
+.gt-con{
+  color: aliceblue;
+}
+
+@media  only screen and (max-width: 1440px) {
+  .image-2{
+    margin-left: 100px;
+    width: 70%;
+  }
+
+  .data-testid{
+    width: 100%;
+  }
+
+  .data-testid-text,.markings-text-,.error-text{
+    font-size: 13px;
+    display: flex;
+    justify-content: space-around;    
+  }
+}
+
+@media  only screen and (max-width: 1280px) {
+    .place-one{
+      font-size: 13px;
+    }
+
+    .data-testid-text,.markings-text-,.error-text{
+      font-size: 11px;
+    }
+
+    .markings-text-{
+      margin-left: 160px;
+    }
+
+    .image{
+      height: 650px;
+    }
+    
+    .image-2{
+      height: 650px;
+    }
+    .data-testid{
+      height: 199px;
+      width: 14%;
+    }
+    .Markings{
+      height: 197px;
+      width: 14%;
+      margin-left: 10px;
+    }
+    .error{
+      width: 14%;
+      height: 200px;
+    }
+    .left-text, .middle-text, .right-text{
+      margin-left: 31px;
+    }
+  }
+
+  
+  @media  only screen and (max-width: 1152px){
+    .image-2{
+      height: 590px;
+    }
+    .data-testid{
+      height: 170px;
+    }
+    .Markings{
+      height: 167px;
+    }
+    .error{
+      height: 160px;
+    }
+    .data-testid-text,.error-text,.markings-text-{
+      font-size: 7px;
+      margin-left: 40px;
+    }
+    .markings-text-{
+      margin-left: 125px;
+    }
+    
+  }
+
+  @media  only screen and (max-width: 1024px){
+  .image{
+    width: 80%;
+    height: 80%;
+  }
+  
+  .place-one{
+    font-size: 10px;
+  }
+
+  .left-text,.middle-text,.right-text{
+    font-size: 22px;
+    justify-content: space-around;  
+  }
+
+  .data-testid-text,.markings-text-,.error-text{
+    font-size: 9px;
+  }
+  
+  }
+
+  @media only screen and (max-width: 800px){
+    .about-us{
+      font-size: 40px;
+    }
+
+    .about-us-2{
+      width: 20%;
+      height: 55px;
+    }
+
+    .image-2{
+      height: 387px;
+    }
+
+    .services{
+      font-size: 40px;
+    }
+
+    .services-2{
+      width: 23%;
+      height: 52px;
+    }
+
+    .data-testid{
+      height: 124px;
+    }
+    
+    .Markings{
+      height: 120px;
+    }
+
+    .error{
+      height: 120px;
+    }
+
+    .right-text{
+      margin-right: 77px ;
+    }
+
+    .left-text,.middle-text,.right-text{
+      font-size: 12px; 
+    }
+
+    .markings-text{
+      margin-left: 48px;
+    }
+
+    .left-text{
+      margin-left: 55px;
+    }
+
+    .data-testid-text,.markings-text-,.error-text{
+      font-size: 8px;
+    }
+    
+    .contacts{
+      font-size: 40px;
+    }
+
+    .contacts-2{
+      width: 32%;
+      height: 52px;
+    }
+  }
+    
+  @media only screen and (max-width: 520px) {
+    .about-us{
+        font-size: 20px;
+    }
+
+    .about-us-2{
+        width: 20%;
+        height: 29px;
+        padding: 5px;
+    }
+    
+    .place-one{
+      font-size: 8px;
+    }
+
+    .image-2{
+      height: 281px;
+      margin-left: 50px;
+    }
+
+    .services{
+      font-size: 20px;
+    }
+    
+    .services-2{
+      width: 20%;
+      height: 27px;
+    }
+
+    .content{
+      flex-direction: column;
+      margin-left: 214px;
+    }
+
+    .data-testid{
+      width: 34%;
+      height: 99px;
+      
+    }
+
+    .Markings{
+      width: 33%;
+      height: 106px;
+      margin-left: 0px;
+    }
+
+    .error{
+      width: 34%;
+      height: 110px;
+    }
+
+    .the-average{
+      flex-direction: column;
+    }
+  
+    .data-testid-text, .markings-text-, .error-text{
+      margin: 0 auto;
+    }
+
+    .main{
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .left-text, .middle-text, .right-text{
+      margin: 0 auto;
+    }
+
+    .left-text{
+      margin-top: -487px;
+    }
+
+    .middle-text{
+      margin-bottom: 27px;
+    }
+
+    .right-text{
+      margin-bottom: -117px;
+    }
+
+    .error{
+      margin-top: 98px;
+    }
+
+    .Markings{
+      margin-top: 98px;
+    }
+
+    .contacts-2{
+      margin-top: 20px;
+    }
+
+    .error-text{
+      margin-bottom: -140px;
+    }
+
+    .data-testid-text{
+      margin-top: -446px;
+    }
+
+    .contacts-2{
+      width: 20%;
+      height: 32px;
+      margin-top: 70px;
+    }
+
+    .contacts{
+      font-size: 20px;
+    }
+  }
+  @media only screen and (max-width: 415px){
+    .image-2{
+      height: 180px;
+    }
+
+    .content{
+      margin-left: 170px;
+    }
+
+    .contacts-2{
+      width: 23%;
+    }
+
+  }
+
+  @media only screen and (max-width: 384px){
+    .content {
+      margin-left: 145px;
+    }
+
+    .data-testid{
+      height: 75px;
+    }
+    
+    .Markings{
+      height: 75px;
+    }
+
+    .error{
+      height: 75px;
+    }
+    
+    .data-testid-text{
+      margin-top: -408px;
+    }
+
+    .left-text{
+      margin-top: -425px;
+    }
+    
+    .contacts-2{
+      width: 30%;
+    }
+
+  }
